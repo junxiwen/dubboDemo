@@ -1,1 +1,5 @@
 /.idea
+/consumer/target/classes/
+/consumer/target/classes/
+/provider/target
+/consumer/target
