@@ -19,7 +19,7 @@ import java.util.List;
 @RequestMapping("/user")
 public class UserController {
 
-    @Reference(check = false,version = "1.1.1")
+    @Reference(check = false,version = "1.1.1",mock = "true")
     private IUserService userService;
 
     @GetMapping("/getList")

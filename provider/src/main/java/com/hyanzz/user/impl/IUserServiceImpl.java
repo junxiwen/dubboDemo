@@ -21,6 +21,7 @@ public class IUserServiceImpl implements IUserService  {
         User user1 = new User("andy",28);
         User user2 = new User("hyanzz",27);
         User user3 = new User("baby",1);
+        int a = 1/0;
         return Lists.newArrayList(user1,user2,user3);
     }
 }
